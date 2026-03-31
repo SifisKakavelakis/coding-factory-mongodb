@@ -1,0 +1,192 @@
+[
+  {
+    "username": "admin",
+    "password": "$2a$10$idun0b5MBNTJyQrdKQLur.zl8.nQ50of5GXkO0.8eb/831niPWaV2",
+    "firstname": "Bob",
+    "lastname": "Dylan dddd",
+    "email": "admin1@aueb.gr",
+    "address": {"area":"area1","street":"ssss","number":"road1","po":"43434","municipality":"Athens"},
+    "phone":[{"type":"home","number":"2101111111"},{"type":"mobile","number":"6931111111"},{"type":"work","number":"2102223333"}],
+    "roles":[{"role":"READER","active":true},{"role":"EDITOR","active":false},{"role":"ADMIN","active":true}]
+  },
+  {
+    "username": "jdoe",
+    "password": "$2a$10$EXAMPLEHASH111111111111111111111111111111111111111111",
+    "firstname": "John",
+    "lastname": "Doe",
+    "email": "jdoe@aueb.gr",
+    "address": {"area":"area2","street":"Maple","number":"12","po":"11111","municipality":"Athens"},
+    "phone":[{"type":"mobile","number":"6932340001"}],
+    "roles":[{"role":"READER","active":true}]
+  },
+  {
+    "username": "asmith",
+    "password": "$2a$10$EXAMPLEHASH222222222222222222222222222222222222222222",
+    "firstname": "Alice",
+    "lastname": "Smith",
+    "email": "alice.smith@example.com",
+    "address": {"area":"area3","street":"1st Ave","number":"5","po":"22222","municipality":"Piraeus"},
+    "phone":[{"type":"home","number":"2103334444"},{"type":"mobile","number":"6933334444"}],
+    "roles":[{"role":"EDITOR","active":true},{"role":"READER","active":true}]
+  },
+  {
+    "username": "maria",
+    "password": "$2a$10$EXAMPLEHASH333333333333333333333333333333333333333333",
+    "firstname": "Maria",
+    "lastname": "Papadopoulou",
+    "email": "maria@aueb.gr",
+    "address": {"area":"area4","street":"Elia","number":"7","po":"33333","municipality":"Athens"},
+    "phone":[{"type":"mobile","number":"6934445555"}],
+    "roles":[{"role":"ADMIN","active":false},{"role":"READER","active":true}]
+  },
+  {
+    "username": "nikos",
+    "password": "$2a$10$EXAMPLEHASH444444444444444444444444444444444444444444",
+    "firstname": "Nikos",
+    "lastname": "Konstantinou",
+    "email": "nikos.k@example.com",
+    "address": {"area":"area5","street":"Olive","number":"21","po":"44444","municipality":"Thessaloniki"},
+    "phone":[{"type":"work","number":"2310123456"}],
+    "roles":[{"role":"READER","active":true}]
+  },
+  {
+    "username": "eva",
+    "password": "$2a$10$EXAMPLEHASH555555555555555555555555555555555555555555",
+    "firstname": "Eva",
+    "lastname": "Georgiou",
+    "email": "eva@aueb.gr",
+    "address": {"area":"area6","street":"Lemon","number":"3","po":"55555","municipality":"Piraeus"},
+    "phone":[{"type":"mobile","number":"6935556666"}],
+    "roles":[{"role":"EDITOR","active":false},{"role":"READER","active":true}]
+  },
+  {
+    "username": "peter",
+    "password": "$2a$10$EXAMPLEHASH666666666666666666666666666666666666666666",
+    "firstname": "Peter",
+    "lastname": "Brown",
+    "email": "p.brown@example.com",
+    "address": {"area":"area4","street":"Ocean","number":"99","po":"66666","municipality":"Athens"},
+    "phone":[{"type":"home","number":"2106667777"}],
+    "roles":[{"role":"READER","active":true}]
+  },
+  {
+    "username": "lisa",
+    "password": "$2a$10$EXAMPLEHASH777777777777777777777777777777777777777777",
+    "firstname": "Lisa",
+    "lastname": "Miller",
+    "email": "lisa.m@example.com",
+    "address": {"area":"area3","street":"Park","number":"44","po":"77777","municipality":"Heraklion"},
+    "phone":[{"type":"mobile","number":"6937778888"}],
+    "roles":[{"role":"EDITOR","active":true},{"role":"READER","active":true}]
+  },
+  {
+    "username": "giorgos",
+    "password": "$2a$10$EXAMPLEHASH888888888888888888888888888888888888888888",
+    "firstname": "Giorgos",
+    "lastname": "Kostas",
+    "email": "giorgos@aueb.gr",
+    "address": {"area":"area2","street":"Kifisou","number":"10","po":"88888","municipality":"Athens"},
+    "phone":[{"type":"work","number":"2109990000"},{"type":"mobile","number":"6939990000"}],
+    "roles":[{"role":"ADMIN","active":true}]
+  },
+  {
+    "username": "anna",
+    "password": "$2a$10$EXAMPLEHASH999999999999999999999999999999999999999999",
+    "firstname": "Anna",
+    "lastname": "Kostas",
+    "email": "anna.k@example.com",
+    "address": {"area":"area1","street":"Sun","number":"2","po":"99999","municipality":"Patras"},
+    "phone":[{"type":"mobile","number":"6930001111"}],
+    "roles":[{"role":"READER","active":true}]
+  },
+  {
+    "username": "xristos",
+    "password": "$2a$10$EXAMPLEHASH101010101010101010101010101010101010101010",
+    "firstname": "Xristos",
+    "lastname": "P.",
+    "email": "xristos@aueb.gr",
+    "address": {"area":"area7","street":"River","number":"8","po":"10101","municipality":"Larisa"},
+    "phone":[{"type":"home","number":"2410123456"}],
+    "roles":[{"role":"EDITOR","active":true},{"role":"READER","active":false}]
+  },
+  {
+    "username": "sofia",
+    "password": "$2a$10$EXAMPLEHASH11121314151617181920212223242526272829",
+    "firstname": "Sofia",
+    "lastname": "Nikolaou",
+    "email": "sofia@aueb.gr",
+    "address": {"area":"area8","street":"Hill","number":"55","po":"12121","municipality":"Athens"},
+    "phone":[{"type":"mobile","number":"6931212121"}],
+    "roles":[{"role":"READER","active":true},{"role":"EDITOR","active":false}]
+  },
+  {
+    "username": "kostas",
+    "password": "$2a$10$EXAMPLEHASH12131415161718192021222324252627282930",
+    "firstname": "Kostas",
+    "lastname": "V.",
+    "email": "kostas.v@example.com",
+    "address": {"area":"area9","street":"Forest","number":"66","po":"13131","municipality":"Ioannina"},
+    "phone":[{"type":"work","number":"2651023456"}],
+    "roles":[{"role":"READER","active":true}]
+  },
+  {
+    "username": "elie",
+    "password": "$2a$10$EXAMPLEHASH13141516171819202122232425262728293031",
+    "firstname": "Elena",
+    "lastname": "I.",
+    "email": "elena.i@example.com",
+    "address": {"area":"area10","street":"Broad","number":"1","po":"14141","municipality":"Athens"},
+    "phone":[{"type":"mobile","number":"6931414141"}],
+    "roles":[{"role":"EDITOR","active":true}]
+  },
+  {
+    "username": "tom",
+    "password": "$2a$10$EXAMPLEHASH14151617181920212223242526272829303132",
+    "firstname": "Tom",
+    "lastname": "Hanks",
+    "email": "tom.h@example.com",
+    "address": {"area":"area11","street":"Market","number":"120","po":"15151","municipality":"Volos"},
+    "phone":[{"type":"home","number":"2421023456"}],
+    "roles":[{"role":"READER","active":false},{"role":"ADMIN","active":true}]
+  },
+  {
+    "username": "sara",
+    "password": "$2a$10$EXAMPLEHASH15161718192021222324252627282930313233",
+    "firstname": "Sara",
+    "lastname": "Lee",
+    "email": "sara.l@example.com",
+    "address": {"area":"area12","street":"Station","number":"7","po":"16161","municipality":"Athens"},
+    "phone":[{"type":"mobile","number":"6931616161"}],
+    "roles":[{"role":"READER","active":true},{"role":"EDITOR","active":true}]
+  },
+  {
+    "username": "pablo",
+    "password": "$2a$10$EXAMPLEHASH16171819202122232425262728293031323334",
+    "firstname": "Pablo",
+    "lastname": "N.",
+    "email": "pablo.n@example.com",
+    "address": {"area":"area13","street":"Bridge","number":"30","po":"17171","municipality":"Athens"},
+    "phone":[{"type":"work","number":"2101717171"}],
+    "roles":[{"role":"READER","active":true}]
+  },
+  {
+    "username": "zeta",
+    "password": "$2a$10$EXAMPLEHASH17181920212223242526272829303132333435",
+    "firstname": "Zeta",
+    "lastname": "G.",
+    "email": "zeta.g@example.com",
+    "address": {"area":"area14","street":"Elm","number":"9","po":"18181","municipality":"Chania"},
+    "phone":[{"type":"mobile","number":"6931818181"}],
+    "roles":[{"role":"EDITOR","active":false}]
+  },
+  {
+    "username": "leo",
+    "password": "$2a$10$EXAMPLEHASH18192021222324252627272829303132333436",
+    "firstname": "Leon",
+    "lastname": "P.",
+    "email": "leo.p@example.com",
+    "address": {"area":"area15","street":"Center","number":"77","po":"19191","municipality":"Athens"},
+    "phone":[{"type":"mobile","number":"6931919191"}],
+    "roles":[{"role":"READER","active":true},{"role":"EDITOR","active":false}]
+  }
+]
