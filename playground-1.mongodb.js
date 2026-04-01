@@ -1,7 +1,7 @@
 // Select the database to use.
-use('codingfactory')
+// use('codingfactory')
 
-db.getCollection('users').find()
+// db.getCollection('users').find()
 
 // db.getCollection('users').insertOne({
 //     '_id': 1111,
@@ -134,16 +134,118 @@ db.getCollection('users').find()
 //     }
 // )
 
+// use('codingfactory')
+// db.getCollection('users').aggregate([
+//     {
+//         $match: {
+//             'address.area':'area2'
+//         }
+//     },
+//     {
+//         $project: {
+//           count: {$size:'$phone'}
+//         }
+//     }
+// ])
+
+// use('codingfactory')
+// db.getCollection('users').aggregate([
+//     {
+//         $project: {
+//             '_id':0,
+//             'phone':1
+//         }
+//     },
+//     {
+//         $unwind: '$phone'
+//     },
+//     {
+//         $project: {
+//           'phone': '$phone.type'
+//         }
+//     }
+// ])
+
+// use('codingfactory')
+// db.getCollection('users').aggregate([
+//     {
+//         $project: {
+//           '_id':0,
+//           'roles':1
+//         }
+//     },
+//     {
+//         $unwind:'$roles'
+//     },
+//     {
+//         $match: {
+//             'roles.role':'ADMIN',
+//             'roles.active':true
+//         }
+//     },
+//     {
+//         $group: {
+//             _id: null,
+//             activeAdmins: {
+//                 $sum: 1
+//             }
+//         }
+//     }
+// ])
+
+// use('codingfactory')
+// db.getCollection('users').aggregate([
+//     {
+//         $unwind: '$phone'
+//     },
+//     {
+//         $group:{
+//             _id: {municipality:'$address.municipality', phoneType:'$phone.type'},
+//             count: {$sum:1}
+//         }
+//     },
+//     {
+//         $sort: {'_id.municipality':1}
+//     }
+// ])
+
+// use('codingfactory')
+// db.getCollection('users').aggregate([
+//     {
+//         $unwind:'$roles'
+//     },
+//     {
+//         $group: {
+//             _id: '$roles.role',
+//             total: {$sum:1},
+//             active: {$sum: {$cond:['$roles.active',
+//                 1, 0]}}
+//         }
+//     },
+//     {$sort: {total:-1}}
+// ])
+
+// use('codingfactory')
+// db.getCollection('users').aggregate([
+//     {
+//         $project:{
+//             _id:0,
+//             username:1,
+//             products:1
+//         }
+//     },
+//     {
+//         $unwind: '$products'
+//     },
+//     {
+//         $lookup: {
+//           from: 'products',
+//           localField: 'products.product',
+//           foreignField: 'product',
+//           as: result
+//         }
+//     }
+// ])
+
 use('codingfactory')
-db.getCollection('users').aggregate([
-    {
-        $match: {
-            'address.area':'area2'
-        }
-    },
-    {
-        $project: {
-          count: {$size:'$phone'}
-        }
-    }
-])
+db.getCollection('users').createIndex({username:1},{unique:true})
